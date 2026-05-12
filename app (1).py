@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 # ── Setup Gemini ──
-genai.configure(api_key="AIzaSyAC1kn_HubK86RSMASiccZFm03t3Eh5deE")
+genai.configure(api_key="AIzaSyDOChgbZN8pnnbIWtq8ETNng3c-hltGTt0")
 model = genai.GenerativeModel('gemini-2.0-flash-lite')
 
 app = Flask(__name__)
